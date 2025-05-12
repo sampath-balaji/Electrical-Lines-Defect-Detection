@@ -103,7 +103,7 @@ Alternatively, a Jupyter notebook ([`train_dino_with_outputs.ipynb`](https://git
 
 ## Validation Accuracy
 Best validation accuracy: 84.14%
-(Trained using DINOv2 ViT-B/14 on RTX 4070 Ti SUPER on [JOHNAIC](https://von-neumann.ai/)
+(Trained using DINOv2 ViT-B/14 on RTX 4070 Ti SUPER on [JOHNAIC](https://von-neumann.ai/))
 
 ## Sample Visualizations
 <p align="center"> <img src="https://raw.githubusercontent.com/sampath-balaji/electrical-line-defects/refs/heads/main/Pole_LeanedStraight_Defect/Classification/assets/val_viz_ep40.png" width="600"/> </p>
