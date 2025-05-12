@@ -65,7 +65,7 @@ ElectricPoles_StraightLeaned-Defects/
 ```
 You may edit the path in ```train.py```, ```run_inference_and_eval_val.py```, and ```run_inference_and_eval_test.py``` if your local directory differs.
 
-##  Training (Use the Jupyter notebook with the pipeline ready / the script)
+## Training (Use the Jupyter notebook with the pipeline ready / the script)
 
 ```bash
 python train.py
@@ -78,7 +78,7 @@ Training by default uses:
 - Optimizer: auto
 - Device: cuda
 
-  ## 🔍 Inference & Evaluation
+  ## 🔍Inference & Evaluation
   ###  Run on validation set:
   ```bash
   python run_inference_and_eval_val.py
@@ -120,5 +120,8 @@ Training by default uses:
 | Straight\_Pole | 93.85%   | 93.02%    | 98.36% | 95.62%   |
 
 ## 📄 License
-##### Code: MIT License
-##### Dataset: The dataset is licensed under CC BY 4.0 and hosted on [Hugging Face](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_StraightLeaned-Defects)
+
+- **Code:** MIT License  
+- **Dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+  Available at: [Hugging Face Dataset](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_StraightLeaned-Defects)
+
