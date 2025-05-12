@@ -126,7 +126,6 @@ Training by default uses:
   Available at: [Hugging Face Dataset](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_StraightLeaned-Defects)
 
 ## Sample predictions
-![Sample Predictions](./Pole_LeanedStraight_Defect/ObjectDetection/assets/output.jpeg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/sampath-balaji/electrical-line-defects/main/Pole_LeanedStraight_Defect/ObjectDetection/assets/output.jpeg" width="600"/>
 </p>
