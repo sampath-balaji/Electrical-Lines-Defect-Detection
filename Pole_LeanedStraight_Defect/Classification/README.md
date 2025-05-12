@@ -34,6 +34,22 @@ ElectricPoles_Classification_StraightLeaned/
 - No augmentations applied to the dataset itself.
 - Splits: Train 75%, Val 15%, Test 10%
 
+### Labeling Process
+
+Each image in the dataset was labeled independently by **three human annotators**, each assigning one of the following class labels:
+- `Leaned` – the pole visibly leans from vertical
+- `Straight` – the pole appears upright
+- `Rejected` – unclear cases (e.g., cropped tops/bottoms, extreme tilt, occlusions)
+
+The final label for each image was determined using a **majority voting approach**, where at least 2 out of 3 annotators agreed on the class.
+
+A CSV file [`image_labels_with_majority.csv`]([./labels.csv](https://github.com/sampath-balaji/electrical-line-defects/blob/main/Pole_LeanedStraight_Defect/Classification/image_labels_with_majority.csv)) is included in this repo, containing:
+- `filename`: Image file name
+- `Straight`, `Leaned`, `Rejected`: Labels assigned by each of the three annotators
+- `majority_label`: The agreed label (via majority vote) used in the dataset
+
+This CSV allows users to audit the labeling process or re-define label selection strategies if needed.
+
 ## Directory Structure
 ```bash
 Pole_LeanedStraight_Defect/
