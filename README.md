@@ -1,1 +1,78 @@
-# electrical-line-defects
+# ⚡ Electric Line Defect Detection
+
+This repository presents an end-to-end computer vision pipeline for detecting and classifying electrical line defects.
+
+Developed as part of the APEPDCL Line Quality Monitoring System, this project includes both source code and real-world datasets, and is released to encourage open-source contributions, collaboration among people interested in AI.
+
+## 📂 Project Modules
+### Project Modules (Current Phase)
+
+
+### - Object Detection  
+📁 [`Pole_LeanedStraight_Defect/ObjectDetection`](./Pole_LeanedStraight_Defect/ObjectDetection)
+
+- Detects leaned and straight poles via bounding boxes  
+- Model: YOLOv12  
+- Dataset: 1810 annotated images  
+- 📊 Includes training + inference + metrics evaluation  
+- 📄 [Full Documentation →](https://github.com/sampath-balaji/electrical-line-defects/tree/main/Pole_LeanedStraight_Defect/ObjectDetection)
+
+---
+
+### - Image Classification  
+📁 [`Pole_LeanedStraight_Defect/Classification`](./Pole_LeanedStraight_Defect/Classification)
+
+- Classifies whole pole images into: `Leaned`, `Straight`, or `Rejected`  
+- Model: DINOv2 ViT-B/14  
+- Dataset: Folder-based structure + labeling CSV  
+- 📊 Best validation accuracy: **84.14%**  
+- 📄 [Full Documentation →](https://github.com/sampath-balaji/electrical-line-defects/tree/main/Pole_LeanedStraight_Defect/Classification)
+
+---
+
+## - Datasets (Open Source)
+
+| Dataset | Type | Hugging Face Link |
+|--------|------|-------------------|
+| **Object Detection** | YOLOv12-format | [ElectricPoles_StraightLeaned-Defects](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_StraightLeaned-Defects) |
+| **Image Classification** | Folder-based | [ElectricPoles_Classification_StraightLeaned](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_Classification_StraightLeaned) |
+
+---
+
+## - Project Structure
+
+```bash
+electrical-line-defects/
+├── Pole_LeanedStraight_Defect/
+│   ├── ObjectDetection/
+│   │   ├── assets/                         # Sample output images
+│   │   ├── README.md
+│   │   ├── TrainAndEval.ipynb              # Jupyter notebook with full pipeline
+│   │   ├── run_inference_and_eval_test.py  # Inference + metrics for test set
+│   │   ├── run_inference_and_eval_val.py   # Inference + metrics for val set
+│   │   └── train.py                        # YOLOv12 training script
+│   │
+│   └── Classification/
+│       ├── assets/                         # Visual output images
+│       ├── README.md
+│       ├── TrainValTestSplit.py           # Script to split dataset
+│       ├── image_labels_with_majority.csv # Labeling breakdown CSV
+│       ├── train.py                        # DINOv2 training script
+│       └── train_dino_with_outputs.ipynb   # Notebook with training + visualizations
+├── README.md  ← (this file)
+```
+
+## Technologies Used
+
+- YOLOv12 (Ultralytics)
+- DINOv2 Vision Transformer (Meta AI)
+- Hugging Face Datasets
+- PyTorch, torchvision
+- sklearn, matplotlib, tqdm
+
+---
+
+## License
+
+- **Code:** MIT License  
+- **Datasets:** CC BY 4.0
