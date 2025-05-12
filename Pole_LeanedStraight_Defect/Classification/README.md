@@ -43,7 +43,7 @@ Each image in the dataset was labeled independently by **three human annotators*
 
 The final label for each image was determined using a **majority voting approach**, where at least 2 out of 3 annotators agreed on the class.
 
-A CSV file [`image_labels_with_majority.csv`]([./labels.csv](https://github.com/sampath-balaji/electrical-line-defects/blob/main/Pole_LeanedStraight_Defect/Classification/image_labels_with_majority.csv)) is included in this repo, containing:
+A CSV file [`image_labels_with_majority.csv`](./image_labels_with_majority.csv) is included in this repo, containing:
 - `filename`: Image file name
 - `Straight`, `Leaned`, `Rejected`: Labels assigned by each of the three annotators
 - `majority_label`: The agreed label (via majority vote) used in the dataset
