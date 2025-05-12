@@ -29,9 +29,10 @@ Dataset hosted on Hugging Face:
 electrical-line-defects/
 └── Pole_LeanedStraight_Defect/
 └── ObjectDetection/
-├── train.py # YOLOv12 training script
-├── run_inference_and_eval_val.py # Inference + metrics on val set
-├── run_inference_and_eval_test.py # Inference + metrics on test set
+  ├── train.py # YOLOv12 training script
+  ├── run_inference_and_eval_val.py # Inference + metrics on val set
+  ├── run_inference_and_eval_test.py # Inference + metrics on test set
+  ├── TrainAndEval.ipynb # Jupyter notebook with training and eval pipeline set
 ```
 
 ---
