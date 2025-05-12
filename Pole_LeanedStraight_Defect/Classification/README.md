@@ -5,7 +5,7 @@ This repository contains training code for **image-level classification** of ele
 - `Straight`
 - `Rejected`
 
-It is part of the APEPDCL Line Quality Monitoring project, complementing the YOLOv12-based object detection module. The model used is a fine-tuned [DINOv2 ViT-B/14](https://github.com/facebookresearch/dinov2) vision transformer from Meta AI.
+This complements the YOLOv12-based [object detection module](https://github.com/sampath-balaji/electrical-line-defects/tree/main/Pole_LeanedStraight_Defect/ObjectDetection). The model used is a fine-tuned [DINOv2 ViT-B/14](https://github.com/facebookresearch/dinov2) vision transformer from Meta AI.
 
 ---
 
