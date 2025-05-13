@@ -72,7 +72,7 @@ mv ElectricPoles_Classification_StraightLeaned ../your_path
 ```
 Ensure the folder structure is:
 ```bash
-../ElectricPoles_Classification_StraightLeaned/
+../Classification/
 ├── train/
 │   ├── Leaned/
 │   ├── Straight/
@@ -99,7 +99,7 @@ This will:
 - Train for 40 epochs
 - Save best model to: ```saved_models/best_dino_model.pt```
 - Save prediction visualizations to: ```visualizations/```
-Alternatively, a Jupyter notebook ([`train_dino_with_outputs.ipynb`](https://github.com/sampath-balaji/electrical-line-defects/blob/main/Pole_LeanedStraight_Defect/Classification/train_dino_with_outputs.ipynb)) is also included to run the training pipeline and visualize predictions interactively.
+Alternatively, a Jupyter notebook ([`train_dino_with_outputs.ipynb`](https://github.com/sampath-balaji/Electrical-Lines-Defect-Detection/blob/main/Pole_LeanedStraight_Defect/Classification/train_dino_with_outputs.ipynb)) is also included to run the training pipeline and visualize predictions interactively.
 
 ## Validation Accuracy
 Best validation accuracy: 84.14%
