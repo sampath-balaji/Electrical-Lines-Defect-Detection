@@ -11,13 +11,13 @@ This repo also includes image-level classification accuracy evaluation scripts b
 Dataset hosted on Hugging Face:  
 👉 [Object Detection Dataset](https://huggingface.co/datasets/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Poles_LeanedStraight/ObjectDetection)
 
-- 1810 total images from 3 districts in Andhra Pradesh
+- 1804 total images from 3 districts in Andhra Pradesh
 - Format: YOLOv12-style `.jpg` images and `.txt` annotations
 - Labels:
   - `0`: Leaned_Pole
   - `1`: Straight_Pole
 - Splits:
-  - Train: 1450 images  
+  - Train: 1444 images  
   - Val: 181 images  
   - Test: 179 images
 
