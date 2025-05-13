@@ -9,7 +9,7 @@ This repo also includes image-level classification accuracy evaluation scripts b
 ##  Dataset
 
 Dataset hosted on Hugging Face:  
-👉 [ElectricPoles_StraightLeaned-Defects](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_StraightLeaned-Defects)
+👉 [Object Detection Dataset](https://huggingface.co/datasets/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Poles_LeanedStraight/ObjectDetection)
 
 - 1810 total images from 3 districts in Andhra Pradesh
 - Format: YOLOv12-style `.jpg` images and `.txt` annotations
@@ -26,13 +26,13 @@ Dataset hosted on Hugging Face:
 ## 📁 Repository Structure
 
 ```
-electrical-line-defects/
+Electrical-Lines-Defect-Detection/
 └── Pole_LeanedStraight_Defect/
-└── ObjectDetection/
-  ├── train.py # YOLOv12 training script
-  ├── run_inference_and_eval_val.py # Inference + metrics on val set
-  ├── run_inference_and_eval_test.py # Inference + metrics on test set
-  ├── TrainAndEval.ipynb # Jupyter notebook with training and eval pipeline set
+  └── ObjectDetection/
+    ├── train.py # YOLOv12 training script
+    ├── run_inference_and_eval_val.py # Inference + metrics on val set
+    ├── run_inference_and_eval_test.py # Inference + metrics on test set
+    ├── TrainAndEval.ipynb # Jupyter notebook with training and eval pipeline set
 ```
 
 ---
@@ -51,7 +51,7 @@ mv ElectricPoles_StraightLeaned-Defects /path/to/dataset/ElectricPoles_StraightL
 ```
 Ensure the folder contains the following structure:
 ```bash
-ElectricPoles_StraightLeaned-Defects/
+ObjectDetection/
 ├── train/
 │   ├── images/
 │   └── labels/
