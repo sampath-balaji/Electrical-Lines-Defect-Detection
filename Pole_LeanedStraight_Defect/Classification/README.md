@@ -5,18 +5,18 @@ This repository contains training code for **image-level classification** of ele
 - `Straight`
 - `Rejected`
 
-This complements the YOLOv12-based [object detection module](https://github.com/sampath-balaji/electrical-line-defects/tree/main/Pole_LeanedStraight_Defect/ObjectDetection). The model used is a fine-tuned [DINOv2 ViT-B/14](https://github.com/facebookresearch/dinov2) vision transformer from Meta AI.
+This complements the YOLOv12-based [object detection module](https://github.com/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Pole_LeanedStraight_Defect/ObjectDetection). The model used is a fine-tuned [DINOv2 ViT-B/14](https://github.com/facebookresearch/dinov2) vision transformer from Meta AI.
 
 ---
 
 ## Dataset
 
 Dataset hosted on Hugging Face:  
-👉 [ElectricPoles_Classification_StraightLeaned](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_Classification_StraightLeaned)
+👉 [Classification Dataset](https://huggingface.co/datasets/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Poles_LeanedStraight/Classification)
 
 ### Structure:
 ```bash
-ElectricPoles_Classification_StraightLeaned/
+Classification/
 ├── train/
 │   ├── Leaned/
 │   ├── Straight/
