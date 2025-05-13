@@ -15,7 +15,7 @@ Developed as part of the APEPDCL Line Quality Monitoring System, this project in
 - Model: YOLOv12  
 - Dataset: 1810 annotated images  
 - 📊 Includes training + inference + metrics evaluation  
-- 📄 [Full Documentation →](https://github.com/sampath-balaji/electrical-line-defects/tree/main/Pole_LeanedStraight_Defect/ObjectDetection)
+- 📄 [Full Documentation →](https://github.com/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Pole_LeanedStraight_Defect/ObjectDetection)
 
 ---
 
@@ -26,7 +26,7 @@ Developed as part of the APEPDCL Line Quality Monitoring System, this project in
 - Model: DINOv2 ViT-B/14  
 - Dataset: Folder-based structure + labeling CSV  
 - 📊 Best validation accuracy: **84.14%**  
-- 📄 [Full Documentation →](https://github.com/sampath-balaji/electrical-line-defects/tree/main/Pole_LeanedStraight_Defect/Classification)
+- 📄 [Full Documentation →](https://github.com/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Pole_LeanedStraight_Defect/Classification)
 
 ---
 
@@ -34,15 +34,15 @@ Developed as part of the APEPDCL Line Quality Monitoring System, this project in
 
 | Dataset | Type | Hugging Face Link |
 |--------|------|-------------------|
-| **Object Detection** | YOLOv12-format | [ElectricPoles_StraightLeaned-Defects](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_StraightLeaned-Defects) |
-| **Image Classification** | Folder-based | [ElectricPoles_Classification_StraightLeaned](https://huggingface.co/datasets/sampath-balaji/ElectricPoles_Classification_StraightLeaned) |
+| **Object Detection** | YOLOv12-format | [Object Detection Dataset](https://huggingface.co/datasets/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Poles_LeanedStraight/ObjectDetection) |
+| **Image Classification** | Folder-based | [Classification](https://huggingface.co/datasets/sampath-balaji/Electrical-Lines-Defect-Detection/tree/main/Poles_LeanedStraight/Classification) |
 
 ---
 
 ## - Project Structure
 
 ```bash
-electrical-line-defects/
+Electrical-Lines-Defect-Detection/
 ├── Pole_LeanedStraight_Defect/
 │   ├── ObjectDetection/
 │   │   ├── assets/                         # Sample output images
