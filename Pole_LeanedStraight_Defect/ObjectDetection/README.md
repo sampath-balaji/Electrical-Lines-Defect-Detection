@@ -47,10 +47,10 @@ To run training and evaluation, you must first clone the dataset locally and pla
 git lfs install
 
 # Step 2: Clone the dataset repo
-git clone https://huggingface.co/datasets/sampath-balaji/ElectricPoles_StraightLeaned-Defects
+git clone https://huggingface.co/datasets/sampath-balaji/Electrical-Lines-Defect-Detection
 
 # Step 3: Move or rename it to match expected path
-mv ElectricPoles_StraightLeaned-Defects /path/to/dataset/ElectricPoles_StraightLeaned-Defects
+mv Electrical-Lines-Defect-Detection /path/to/dataset/Electrical-Lines-Defect-Detection
 ```
 Ensure the folder contains the following structure:
 ```bash
