@@ -23,7 +23,7 @@ Dataset hosted on Hugging Face:
 
 ---
 
-## 📁 Repository Structure
+## 📁 GitHub Repository Structure
 
 ```
 Electrical-Lines-Defect-Detection/
@@ -33,6 +33,9 @@ Electrical-Lines-Defect-Detection/
     ├── run_inference_and_eval_val.py # Inference + metrics on val set
     ├── run_inference_and_eval_test.py # Inference + metrics on test set
     ├── TrainAndEval.ipynb # Jupyter notebook with training and eval pipeline set
+    ├── object_detection_dataset_bboxes.json
+    ├── README.md (this file)
+  └── assets/
 ```
 
 ---
