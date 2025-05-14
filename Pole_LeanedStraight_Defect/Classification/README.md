@@ -65,14 +65,14 @@ To run training, first clone the dataset and organize it as expected:
 git lfs install
 
 # Step 2: Clone the dataset repo
-git clone https://huggingface.co/datasets/sampath-balaji/ElectricPoles_Classification_StraightLeaned
+git clone https://huggingface.co/datasets/sampath-balaji/Electrical-Lines-Defect-Detection
 
 # Step 3: Rename or move it to match expected path
-mv ElectricPoles_Classification_StraightLeaned ../your_path
+mv Electrical-Lines-Defect-Detection ../your_path
 ```
 Ensure the folder structure is:
 ```bash
-../Classification/
+..Poles_LeanedStraight/Classification/
 ├── train/
 │   ├── Leaned/
 │   ├── Straight/
