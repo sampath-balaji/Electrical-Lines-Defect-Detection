@@ -54,7 +54,7 @@ mv Electrical-Lines-Defect-Detection /path/to/dataset/Electrical-Lines-Defect-De
 ```
 Ensure the folder contains the following structure:
 ```bash
-ObjectDetection/
+../Poles_LeanedStraight/ObjectDetection/
 ├── train/
 │   ├── images/
 │   └── labels/
