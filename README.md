@@ -74,6 +74,15 @@ Electrical-Lines-Defect-Detection/
 
 ---
 
+## Sample Visualizations
+- Classification model
+<p align="center"> <img src="https://raw.githubusercontent.com/sampath-balaji/Electrical-Lines-Defect-Detection/refs/heads/main/Pole_LeanedStraight_Defect/Classification/assets/val_viz_ep40.png" width="600"/> </p>
+
+- Object Detection model
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/sampath-balaji/Electrical-Lines-Defect-Detection/refs/heads/main/Pole_LeanedStraight_Defect/ObjectDetection/assets/output.jpeg" width="600"/>
+</p>
+
 ## License
 
 - **Code:** MIT License  
