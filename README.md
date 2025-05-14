@@ -1,8 +1,10 @@
 # ⚡ Electric Line Defect Detection
 
-This repository presents an end-to-end computer vision pipeline for detecting and classifying electrical line defects.
+- This repository presents an end-to-end computer vision pipeline for detecting and classifying electrical line defects.
 
-Developed as part of the APEPDCL Line Quality Monitoring System, this project includes both source code and real-world datasets, and is released to encourage open-source contributions, collaboration among people interested in AI.
+- Developed as part of the APEPDCL Line Quality Monitoring System, this project includes both source code and real-world datasets, and is released to encourage open-source contributions, collaboration among people interested in AI.
+  
+-  **This ongoing project is supervised and mentored by [Sasank Chilamkurthy](https://chsasank.com/about/), whose expertise has guided its development.** 
 
 ## 📂 Project Modules
 ### Project Modules (Current Phase)
